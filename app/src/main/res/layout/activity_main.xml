@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activiy_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.dell.calculator.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/subtotal"
+        android:hint="Subtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/itbms"
+        android:hint="ITBMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/diez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10%" />
+
+    <Button
+        android:id="@+id/quince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15%" />
+
+    <Button
+        android:id="@+id/veinte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20%" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:text="TOTAL"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of People"
+        android:layout_weight="0.09" />
+
+    <EditText
+        android:id="@+id/people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/split"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Split It!" />
+
+</LinearLayout>
